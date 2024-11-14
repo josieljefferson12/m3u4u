@@ -1,5 +1,6 @@
-#EXTM3U url-tvg="http://m3u4u.com/epg/jq2zy9v62gfw9x37nxr5"
-#EXTM3U url-tvg="http://m3u4u.com/epg/26p5n3jr29cx5p86yv7j"
+#EXTM3U url-tvg="http://m3u4u.com/epg/8p4ey8mvw5fq89z8ng1v"
+#EXTM3U url-tvg="http://m3u4u.com/epg/xe47yz1pd9spv21mn9vq"
+#EXTM3U url-tvg="http://m3u4u.com/epg/j67zn6m4w7fq9rv8yd1w"
 
 #EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="epg.stalker.portal" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",epg.stalker.portal
 http://m3u4u.com/m3u/8p4ey8mvw5fq89z8ng1v
