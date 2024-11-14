@@ -2,6 +2,20 @@
 #EXTM3U url-tvg="http://m3u4u.com/epg/xe47yz1pd9spv21mn9vq"
 #EXTM3U url-tvg="http://m3u4u.com/epg/j67zn6m4w7fq9rv8yd1w"
 
+################################ josielluz@proton.me ################################
+#EXTM3U url-tvg="http://m3u4u.com/epg/p87vnr28jdh47pven41j"
+#EXTM3U url-tvg="http://m3u4u.com/epg/26p5n3d27ehxr8vmyv7j"
+http://m3u4u.com/m3u/26p5n3d27ehxr8vmyv7j
+
+
+#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="Playlist - josielluz@proton.me" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",Playlist - josielluz@proton.me
+http://m3u4u.com/m3u/p87vnr28jdh47pven41j
+
+#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="Playlists - josielluz@proton.me" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",Playlists - josielluz@proton.me
+http://m3u4u.com/m3u/26p5n3d27ehxr8vmyv7j
+
+################################ josielluz@proton.me ################################
+
 #EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="epg.stalker.portal" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",epg.stalker.portal
 http://m3u4u.com/m3u/8p4ey8mvw5fq89z8ng1v
 
