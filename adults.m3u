@@ -22,6 +22,9 @@ http://m3u4u.com/m3u/p87vnr28jdh47pven41j
 #EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="Playlists - josielluz@proton.me" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",Playlists - josielluz@proton.me
 http://m3u4u.com/m3u/26p5n3d27ehxr8vmyv7j
 
+#EXTINF:-1 tvg-id="TVAntena10.br" tvg-name="ANTENA 10 HD" tvg-logo="https://i.imgur.com/BqzBsdm.png" group-title="00 - PIAUÍ TV",ANTENA 10 HD
+https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/chunklist_w2123538353_b1396000.m3u8
+
 #EXTINF:-1 tvg-id="RedeTV.br" tvg-name="O Dia TV" tvg-logo="https://i.imgur.com/xbPIEDD.png" group-title="00 - PIAUÍ TV",O Dia TV
 https://59e4b6c1beddc.streamlock.net/tvodia/tvodia/chunklist_w1921501568.m3u8
 
