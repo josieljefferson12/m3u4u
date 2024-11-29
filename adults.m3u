@@ -7,13 +7,13 @@
 #EXTM3U url-tvg="http://m3u4u.com/epg/26p5n3d27ehxr8vmyv7j"
 ################################ josielluz@proton.me ################################
 
-#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="epg.stalker.portal" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",epg.stalker.portal
+#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="epg.stalker.portal - josieljefferson@my.com" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",epg.stalker.portal - josieljefferson@my.com
 http://m3u4u.com/m3u/8p4ey8mvw5fq89z8ng1v
 
-#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="iMPlayer" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",iMPlayer
+#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="iMPlayer - josieljefferson@my.com" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",iMPlayer - josieljefferson@my.com
 http://m3u4u.com/m3u/xe47yz1pd9spv21mn9vq
 
-#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="Playlists" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",Playlists
+#EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="Playlists - josieljefferson@my.com" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",Playlists - josieljefferson@my.com
 http://m3u4u.com/m3u/j67zn6m4w7fq9rv8yd1w
 
 #EXTINF:-1 tvg-id="TVAlvoradadoSul.br" tvg-name="Playlist - josielluz@proton.me" tvg-logo="http://7go.xyz:8080/images/ef5f02cae5b40d9dc20a97f89fb2b3d9.png" group-title="00 - PIAUÍ TV",Playlist - josielluz@proton.me
