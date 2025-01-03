@@ -1,0 +1,29 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Executa todos os dias às 8h (UTC)
+    - cron: '0 20 * * *' # Executa todos os dias às 20h (UTC)
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  update_epg:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # Faz o checkout do código no repositório
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Usa a versão mais recente do Python 3
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests  # Instala a dependência necessária
+
+    - name: Run update script
+      run: python epg-m3u-xe47yz1pd9spv21mn9vq.py  # Executa o script Python
+      
