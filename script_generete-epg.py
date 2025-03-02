@@ -23,8 +23,8 @@ def generate_epg(channels):
         channel_elem = SubElement(tv, 'channel', id=channel['url'])
         display_name = SubElement(channel_elem, 'display-name')
         display_name.text = channel['name']
-        
-        # Aqui utilizamos horários de exemplo, ajuste conforme necessário
+
+        # Exemplo de programação; ajuste conforme necessário
         programme = SubElement(tv, 'programme',
                                start="20230101000000 +0000", stop="20230101010000 +0000",
                                channel=channel['url'])
@@ -39,7 +39,7 @@ def main():
     channels = parse_m3u(m3u_data)
     epg_xml = generate_epg(channels)
     
-    with open('epg.xml', 'w', encoding='utf-8') as file:
+    with open('PiauiTV.m3u.epg.xml', 'w', encoding='utf-8') as file:
         file.write(epg_xml)
 
 if __name__ == '__main__':
