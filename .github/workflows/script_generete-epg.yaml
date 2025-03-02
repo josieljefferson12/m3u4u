@@ -1,27 +1,32 @@
 
-   name: Generate EPG
+name: Generate EPG
 
-   on:
-     schedule:
-       - cron: '0 0 * * *'  # A cada dia à meia-noite, ajuste conforme necessário
-     workflow_dispatch:
+on:
+  schedule:
+    - cron: '0 0 * * *'  # A cada dia à meia-noite, ajuste conforme necessário
+  workflow_dispatch:
 
-   jobs:
-     generate_epg:
-       runs-on: ubuntu-latest
+jobs:
+  generate_epg:
+    runs-on: ubuntu-latest
 
-       steps:
-         - name: Checkout repository
-           uses: actions/checkout@v2
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-         - name: Set up Python
-           uses: actions/setup-python@v2
-           with:
-             python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-         - name: Install dependencies
-           run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-         - name: Run script
-           run: python script_generete-epg.py  # Substitua 'script.py' pelo nome do seu arquivo Python
-   
+      - name: Run script
+        run: python script_generate_epg.py  # Substitua 'script_generate_epg.py' pelo nome do seu arquivo Python
+
+      - name: Upload EPG file
+        uses: actions/upload-artifact@v2
+        with:
+          name: epg-file
+          path: PiauiTV.m3u.epg.xml
