@@ -1,4 +1,3 @@
-
 name: Generate EPG
 
 on:
@@ -23,7 +22,7 @@ jobs:
         run: pip install requests
 
       - name: Run script
-        run: python script_generate_epg.py  # Substitua 'script_generate_epg.py' pelo nome do seu arquivo Python
+        run: python script_generate_epg.py
 
       - name: Upload EPG file
         uses: actions/upload-artifact@v2
